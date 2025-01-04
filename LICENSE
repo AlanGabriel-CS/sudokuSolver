@@ -1,0 +1,25 @@
+
+### 2. **`.gitignore`**
+- **Purpose**: Specifies files and directories that Git should ignore and not track in version control. This is useful for excluding compiled binaries, temporary files, and other artifacts that shouldn't be part of your source code repository.
+- **Common entries**:
+  - `*.o` (Object files)
+  - `*.out` (Executable files)
+  - `*.exe` (Windows executables)
+  - `*.d` (dependency files)
+  - `*.log` (Log files)
+  - `*.vs/` or `.vscode/` (IDE-related files/folders)
+
+Example `.gitignore`:
+```gitignore
+# Ignore compiled files
+*.o
+*.out
+*.exe
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
