@@ -1,9 +1,1 @@
-/build/
-*.o
-*.out
-*.exe
-*.dSYM/
-CMakeFiles/
-CMakeCache.txt
-Makefile
-*.log
+
